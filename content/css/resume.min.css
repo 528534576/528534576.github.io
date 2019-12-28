@@ -1,0 +1,247 @@
+body{font-family:'Open Sans',serif;padding-top:54px;color:#868e96}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+.responsive450 {
+    width: 100%;
+    max-width: 450px;
+    height: auto;
+}
+
+.responsive600 {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.responsive625 {
+    width: 100%;
+    max-width: 625px;
+    height: auto;
+}
+
+.responsive650 {
+    width: 100%;
+    max-width: 650px;
+    height: auto;
+}
+
+.responsive700 {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+}
+
+.responsive750 {
+    width: 100%;
+    max-width: 750px;
+    height: auto;
+}
+
+.responsive800 {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.responsive1000 {
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+
+
+
+/* capitalism cards start */
+
+.snip_capitalism {
+  font-family: 'Lato', Arial, sans-serif;
+  position: relative;
+  display: relative;
+  float: center;
+  overflow: hidden;
+/*   margin: 10px 1%; */
+/*   min-width: 1000px; /* 250 */ */
+   /* 310 */
+  max-width: 300px;/*   width: 100%; */
+  background-color: transparent;
+  color: transparent;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 2%;
+/*   box-shadow: 0 0 5px rgba(0, 0, 0, 0.15); */
+}
+
+
+.snip_capitalism img {
+  vertical-align: top;
+  position: relative;
+}
+
+.snip_capitalism figcaption {
+  padding-top: 0.7%;
+/*   padding-bottom: calc(5%); */
+  background-color: #2a4185;
+/*   max-width: 800px; */
+}
+
+.snip_capitalism h3 {
+  font-family: 'Oswald';
+  text-transform: uppercase;
+  font-size: 15px; /* 20 */
+  font-weight: 400; /* 400 */
+  line-height: 24px;
+  margin: 3px 0;
+  color: #888;
+}
+
+.snip_capitalism hi4 {
+  font-weight: 400;
+  margin: 0;
+  color: #888;
+  letter-spacing: 1px;
+  font-size: 20px; /* 20 */
+}
+
+
+
+/* capitalism cards end */
+
+/* @media (min-width:992px) */
+
+@media (min-width:992px)
+
+{body{padding-top:0;background-color: #2a4185;padding-left:0rem}}
+
+/* body{background-color: black} */
+
+h1,h2,h3,h4,h5,h6{font-family:'Saira Extra Condensed',serif;font-weight:700;text-transform:uppercase;color:#343a40}
+
+h1{font-size:6rem;line-height:5.5rem}
+
+h2{font-size:3.5rem}.subheading{text-transform:uppercase;font-weight:500;font-family:'Saira Extra Condensed',serif;font-size:1.35rem}
+
+
+/* @media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}body{background-color: black}} */
+
+/* @media (min-width:992px){section.resume-section{padding-top:0rem!important;padding-bottom:0rem!important}body{background-color: black}} */
+
+.bg-primary{background-color:#2a4185!important}
+
+.text-primary{color:white!important}a{color:white}a:active,a:focus,a:hover{color:white}
+
+
+
+@media (min-width:1px){body{background-color: #2a4185}}
+
+
+  
+
+/* red scrollbar start */
+
+
+	::-webkit-scrollbar {
+        width: 9px;
+        height: 9px;
+    }
+    
+    ::-webkit-scrollbar-track-piece {
+        background-color: transparent;
+    }
+    
+    body::-webkit-scrollbar-track-piece {
+        background-color: transparent; /* changes scrollbar background-color: white; */
+    }
+    
+    ::-webkit-scrollbar-track-piece:no-button {}
+    
+    ::-webkit-scrollbar-thumb {
+        background-color: #1c6835; /* changes the scrollbar color #7D7D7D */
+        border-radius: 3px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background-color: #1c6835;
+        
+    }
+    
+    ::-webkit-scrollbar-thumb:active {
+        background-color: #1c6835;
+    }
+	
+	
+/* red scrollbar end */
+
+
+code {
+	background-color: #161616;
+	border: 1px solid #bd5d38;
+	color: #bd5d38;
+}
+
+
+
+/* contact me start */
+
+form { max-width:600px; margin:15px auto; }
+
+.feedback-input {
+  color: #ffffff;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid #5BA3D8;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #79c2f7; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  width: 100%;
+  background:#5BA3D8;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color: #ffffff;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#6bb3e8; }
+
+/* contact me end */
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
